@@ -54,19 +54,19 @@ def analyze_imports(code):
                 if node.module:
                     imports.add(node.module.split('.')[0])
     except Exception as e:
-        raise RuntimeError(f"AST-Analyse fehlgeschlagen: {str(e)}")
+        raise RuntimeError(f"AST-Analysis failed: {str(e)}")
     return list(imports)
 
 def compile_exe():
     encrypted_code_file = filedialog.askopenfilename(
-        title="Verschlüsselte Code-Datei auswählen",
+        title="Choose encrypted code file",
         filetypes=[("Encrypted files", "*.bin")]
     )
     if not encrypted_code_file:
         return
 
     key_file = filedialog.askopenfilename(
-        title="Decryption Key-Datei auswählen",
+        title="Choose decryption key from file",
         filetypes=[("Key files", "*.txt")]
     )
     if not key_file:
@@ -76,7 +76,7 @@ def compile_exe():
         with open(key_file, "r") as f:
             key = int(f.read().strip())
     except Exception as e:
-        messagebox.showerror("Fehler", f"Ungültiger Schlüssel:\n{str(e)}")
+        messagebox.showerror("Fehler", f"Invalid key:\n{str(e)}")
         return
 
     try:
@@ -91,7 +91,7 @@ def compile_exe():
             current_key = (current_key * 3 + 1) if current_key % 2 else (current_key // 2)
         decrypted_code = "".join(decrypted_data)
     except Exception as e:
-        messagebox.showerror("Fehler", f"Entschlüsselung fehlgeschlagen:\n{str(e)}")
+        messagebox.showerror("Fehler", f"Decryption Failed:\n{str(e)}")
         return
 
     required_modules = analyze_imports(decrypted_code) + [
@@ -111,13 +111,13 @@ def compile_exe():
         
         if not all([os.path.exists(tcl_dir), os.path.exists(tk_dir)]):
             messagebox.showerror(
-                "Fehler", 
-                "Tcl/Tk 8.6 nicht gefunden!\n"
-                "Installieren Sie Python neu mit aktivierter Tcl/Tk-Option."
+                "Error", 
+                "Tcl/Tk 8.6 not found!\n"
+                "Reinstall python with the following options enabled Tcl/Tk-Option."
             )
             return
     except Exception as e:
-        messagebox.showerror("Fehler", f"Tcl/Tk-Pfade:\n{str(e)}")
+        messagebox.showerror("Error", f"Tcl/Tk-Pfade:\n{str(e)}")
         return
 
     data_dir = "temp_pyinstaller_data"
@@ -145,18 +145,18 @@ def compile_exe():
 
         subprocess.run(cmd, check=True)
         messagebox.showinfo(
-            "Erfolgreich", 
-            "EXE erfolgreich erstellt!\n"
+            "Success", 
+            "EXE compiled successfully!\n"
             f"Pfad: {os.path.abspath('dist/EncryptedApp.exe')}"
         )
 
     except subprocess.CalledProcessError as e:
         messagebox.showerror(
-            "Kompilierungsfehler",
+            "Compiler Error",
             f"Fehlercode {e.returncode}\n"
             "1. PyInstaller updaten: pip install --upgrade pyinstaller\n"
-            "2. Als Administrator ausführen\n"
-            "3. Tcl/Tk 8.6 prüfen"
+            "2. Run as Administrator\n"
+            "3. Tcl/Tk 8.6 check"
         )
     finally:
         shutil.rmtree(data_dir, ignore_errors=True)
@@ -166,7 +166,7 @@ def compile_exe():
         shutil.rmtree("build", ignore_errors=True)
 
 root = tk.Tk()
-root.title("Collatz EXE Compiler Ultimate by Cyberseall")
+root.title("Collatz EXE Compiler FREE by cyberseall")
 root.geometry("600x300")
 root.configure(bg="#2d2d2d")
 
@@ -180,7 +180,7 @@ tk.Label(
 
 tk.Button(
     root,
-    text="🚀 EXE kompilieren",
+    text="🚀 Compile EXE",
     command=compile_exe,
     bg="#4CAF50",
     fg="white",
