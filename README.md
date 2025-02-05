@@ -37,7 +37,6 @@ This repository contains the **first public version** of the Collatz Encryption 
 ---
 
 ## 🔒 Features (Private Version - Available for Purchase)
-## 🔒 Features (Private Version - Available for Purchase)
 - **Advanced Key Evolution:** Dynamically evolving key structure that increases security exponentially, making brute-force attacks infeasible.
 - **Post-Quantum Security:** Enhances resistance to quantum algorithms by integrating **lattice-based** cryptographic techniques alongside Collatz transformations.
 - **Multi-Layer Encryption:** Supports **AES-256**, **Elliptic Curve Cryptography (ECC)**, and **Post-Quantum Cryptography (PQC)**.
