@@ -37,14 +37,24 @@ This repository contains the **first public version** of the Collatz Encryption 
 ---
 
 ## 🔒 Features (Private Version - Available for Purchase)
-- **Advanced Key Evolution:** The private version utilizes a dynamically evolving key structure that exponentially increases complexity, making brute-force attacks infeasible.
+## 🔒 Features (Private Version - Available for Purchase)
+- **Advanced Key Evolution:** Dynamically evolving key structure that increases security exponentially, making brute-force attacks infeasible.
 - **Post-Quantum Security:** Enhances resistance to quantum algorithms by integrating **lattice-based** cryptographic techniques alongside Collatz transformations.
-- **Multi-Layer Encryption:** Supports **AES-256** and **Elliptic Curve Cryptography (ECC)** in combination with Collatz-based obfuscation.
+- **Multi-Layer Encryption:** Supports **AES-256**, **Elliptic Curve Cryptography (ECC)**, and **Post-Quantum Cryptography (PQC)**.
 - **Anti-Tampering & Obfuscation:** Introduces an 8-byte fake header and runtime memory obfuscation to prevent reverse engineering.
-- **Secure Execution Environment:** Implements anti-debugging, anti-VM detection, and hidden process execution to evade forensic analysis.
-- **Integrity Protection:** Uses **HMAC-SHA256** to ensure encrypted data has not been tampered with.
-- **Custom Key Splitting:** Supports key fragmentation across multiple distributed storage locations for added security.
+- **Secure Execution Environment:** Implements **anti-debugging**, **anti-VM detection**, and **hidden process execution** to evade forensic analysis.
+- **Integrity Protection:** Uses **HMAC-SHA512** and **SHA-3** hashing to ensure encrypted data has not been tampered with.
+- **Custom Key Splitting:** Supports key fragmentation across multiple distributed storage locations for enhanced security.
 - **Faster Decryption Performance:** Optimized key iteration algorithms allow decryption speeds **up to 10x faster** than the public version.
+- **Zero-Knowledge Execution:** Allows encrypted scripts to be executed without ever exposing the decrypted code in memory.
+- **Steganographic Encryption:** Ability to hide encrypted payloads within images or other file types to avoid detection.
+- **Self-Destruct Mechanism:** Triggers automatic destruction of encrypted data after a predefined number of failed decryption attempts.
+- **Remote Key Management:** Secure cloud-based key storage with real-time access control for enterprise-level security.
+- **Modular Encryption Framework:** Can be integrated into existing applications with minimal modification.
+- **Offline Key Generation:** Ensures encryption keys never need to be stored online, reducing the risk of breaches.
+- **Adaptive Security Policies:** Dynamically adjusts encryption strength based on detected threat levels.
+- **Hardware-Based Security:** Supports **Trusted Execution Environments (TEE)** for additional protection against physical attacks.
+
 
 **Why is the Private Version 1000x More Secure?**
 - Uses multi-layer encryption instead of a single-layer XOR transformation.
