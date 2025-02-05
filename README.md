@@ -3,9 +3,6 @@
 **A Quantum-Resistant Encryption System Inspired by the Collatz Conjecture**  
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.com/users/cyberseall)
 
-![Banner](https://i.imgur.com/Wfde8F7.png)
-
-
 ### Free Version
 | Encryption Tool | Compiler |
 |-----------------|----------|
