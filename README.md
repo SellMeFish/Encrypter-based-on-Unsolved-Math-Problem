@@ -22,6 +22,8 @@ This repository contains the **first public version** of the Collatz Encryption 
 
 ![Misc Options Preview Private Version](https://i.imgur.com/b1Tb0wp.png)
 
+![Entropie Analysis Preview Private Version](https://i.imgur.com/K8jyGFZ.png)
+
 ---
 
 ## 🔥 Features (Public Version)
