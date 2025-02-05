@@ -89,7 +89,7 @@ def collatz_encrypt(data: str, key: int) -> bytes:
 
 ```bash
 # Clone Repository
-git clone https://github.com/yourusername/collatz-encryption.git
+git clone https://github.com/yourusername/collatz-encryption.git](https://github.com/SellMeFish/Encrypter-based-on-Unsolved-Math-Problem.git)
 
 # Run Encryption Tool (Free)
 python encryptor.py
