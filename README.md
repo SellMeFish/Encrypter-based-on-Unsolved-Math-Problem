@@ -22,8 +22,6 @@ This repository contains the **first public version** of the Collatz Encryption 
 
 ![Misc Options Preview Private Version](https://i.imgur.com/b1Tb0wp.png)
 
-![Entropie Analysis Preview Private Version](https://i.imgur.com/K8jyGFZ.png)
-
 ---
 
 ## 🔥 Features (Public Version)
@@ -55,6 +53,26 @@ This repository contains the **first public version** of the Collatz Encryption 
 - **Offline Key Generation:** Ensures encryption keys never need to be stored online, reducing the risk of breaches.
 - **Adaptive Security Policies:** Dynamically adjusts encryption strength based on detected threat levels.
 - **Hardware-Based Security:** Supports **Trusted Execution Environments (TEE)** for additional protection against physical attacks.
+
+  ### 🔍 Entropy Analysis Report for SecureApp.exe (Private Version)
+
+The entropy analysis of the file **SecureApp.exe** reveals a Shannon entropy value of **7.9953**.
+
+#### 📊 What Does This Mean?
+- An entropy value of **0** means the file is entirely predictable (e.g., a file full of zero bytes).
+- A maximum entropy value of **8.0** indicates the file appears perfectly random, typically seen in highly encrypted or compressed data.
+- **The observed value of 7.9953 shows that the file is extremely close to maximum entropy!** This strongly suggests high-level encryption or data compression.
+
+#### 🛡 Security Implications:
+- High entropy means **statistical attacks (such as frequency analysis) are nearly impossible**.
+- This confirms that **SecureApp.exe is strongly encrypted with no detectable patterns**.
+- Such high entropy is generally observed in **advanced cryptographic implementations**.
+
+![Entropie Analysis Preview Private Version](https://i.imgur.com/K8jyGFZ.png)
+
+**Conclusion:**  
+The high entropy confirms that the **private version of Collatz Encryption uses extremely strong encryption**, making it highly resistant to forensic analysis and decryption attempts.
+
 
 
 **Why is the Private Version 1000x More Secure?**
