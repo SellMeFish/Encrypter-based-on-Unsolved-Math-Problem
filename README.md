@@ -34,6 +34,27 @@ This repository contains the **first public version** of the Collatz Encryption 
 - Hard to detect by antivirus software due to its unique structure
 - Potential resistance to quantum computing attacks due to its non-linear transformation
 
+
+  ### 🔍 Entropy Analysis Report for EncryptedApp.exe (Free Version)
+
+The entropy analysis of the file **EncryptedApp.exe** reveals a Shannon entropy value of **7.9943**.
+
+#### 📊 What Does This Mean?
+- An entropy value of **0** indicates a completely predictable file (e.g., full of repeating bytes).
+- An entropy value of **8.0** suggests perfect randomness, typically seen in strongly encrypted or compressed data.
+- **The observed value of 7.9943 is extremely close to the theoretical maximum entropy of 8.0**, indicating that the file is highly obfuscated or encrypted.
+
+#### 🛡 Security Implications:
+- High entropy makes **pattern recognition and statistical attacks nearly impossible**.
+- This suggests that the **Free Version** of Collatz Encryption still uses **strong encryption techniques**.
+- However, the security mechanisms are not as advanced as the **Private Version**, which implements additional countermeasures.
+
+![Entropie Analysis Preview Free Version](https://i.imgur.com/d0aJVPA.png)
+
+**Conclusion:**  
+The Free Version of Collatz Encryption **provides solid encryption** and offers strong resistance against forensic analysis. However, **compared to the Private Version, it lacks certain multi-layer encryption and advanced anti-forensic mechanisms**.
+
+
 ---
 
 ## 🔒 Features (Private Version - Available for Purchase)
@@ -53,6 +74,7 @@ This repository contains the **first public version** of the Collatz Encryption 
 - **Offline Key Generation:** Ensures encryption keys never need to be stored online, reducing the risk of breaches.
 - **Adaptive Security Policies:** Dynamically adjusts encryption strength based on detected threat levels.
 - **Hardware-Based Security:** Supports **Trusted Execution Environments (TEE)** for additional protection against physical attacks.
+
 
   ### 🔍 Entropy Analysis Report for SecureApp.exe (Private Version)
 
