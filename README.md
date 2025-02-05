@@ -110,4 +110,4 @@ No additional libraries are needed beyond the Python standard library.
 ---
 
 ## 📝 Contact
-For discussions, feature requests, or purchasing the **private high-security version**, contact me on **Discord: Cyberseall**.
+For discussions, feature requests, or purchasing the **private high-security version**, contact me on **Discord: cyberseall**.
