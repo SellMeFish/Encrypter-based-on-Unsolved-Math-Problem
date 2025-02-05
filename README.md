@@ -5,6 +5,18 @@
 
 ![Banner](https://i.imgur.com/Wfde8F7.png)
 
+
+### Free Version
+| Encryption Tool | Compiler |
+|-----------------|----------|
+| ![Encryptor Free](https://i.imgur.com/an2DGuC.png) | ![Compiler Free](https://i.imgur.com/wHnMZtP.png) |
+
+
+### Private Version (Premium)
+| Encryption Suite | Advanced Compiler | Security Settings | Hidden Options |
+|------------------|-------------------|-------------------|----------------|
+| ![Encryptor Private](https://i.imgur.com/lBxUEbn.png) | ![Compiler Private](https://i.imgur.com/Wfde8F7.png) | ![Settings Private](https://i.imgur.com/GjglWmf.png) | ![Misc Private](https://i.imgur.com/b1Tb0wp.png) |
+
 > ⚠️ **Private Version Available!** A **highly secure commercial edition** with military-grade encryption is offered for purchase.  
 > **Contact Discord:** `cyberseall`
 
