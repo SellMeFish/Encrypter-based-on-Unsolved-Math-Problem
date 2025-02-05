@@ -20,7 +20,7 @@ def collatz_decrypt(encrypted_data, key):
 
 def encrypt_file():
     file_path = filedialog.askopenfilename(
-        title="Python-Datei auswählen", 
+        title="Choose Python File:", 
         filetypes=[("Python files", "*.py")]
     )
     if not file_path:
@@ -28,7 +28,7 @@ def encrypt_file():
     
     key = key_entry.get()
     if not key.isdigit():
-        messagebox.showerror("Fehler", "Schlüssel muss eine ganze Zahl sein!")
+        messagebox.showerror("Error", "Key must be an Integer")
         return
     key = int(key)
     
@@ -50,24 +50,24 @@ def encrypt_file():
             f.write(str(key))
         
         messagebox.showinfo(
-            "Erfolg", 
-            f"Verschlüsselt als:\n{encrypted_file}\n"
-            f"Schlüssel gespeichert in:\n{key_file}"
+            "Success", 
+            f"Encrypted as:\n{encrypted_file}\n"
+            f"Key saved in:\n{key_file}"
         )
     
     except Exception as e:
-        messagebox.showerror("Fehler", f"Verschlüsselung fehlgeschlagen: {str(e)}")
+        messagebox.showerror("Error", f"Encryption Failed: {str(e)}")
 
 def decrypt_file():
     encrypted_file = filedialog.askopenfilename(
-        title="Verschlüsselte Datei auswählen",
+        title="Choose encrypted file",
         filetypes=[("Encrypted files", "*.bin")]
     )
     if not encrypted_file:
         return
     
     key_file = filedialog.askopenfilename(
-        title="Key-Datei auswählen",
+        title="Choose Key File",
         filetypes=[("Key files", "*.txt")]
     )
     if not key_file:
@@ -88,13 +88,13 @@ def decrypt_file():
         with open(output_file, 'w', encoding='utf-8') as f:
             f.write(decrypted_data)
         
-        messagebox.showinfo("Erfolg", f"Entschlüsselt als:\n{output_file}")
+        messagebox.showinfo("Success", f"Decrypted as:\n{output_file}")
     
     except Exception as e:
-        messagebox.showerror("Fehler", f"Entschlüsselung fehlgeschlagen: {str(e)}")
+        messagebox.showerror("Error", f"Decryption failed: {str(e)}")
 
 root = tk.Tk()
-root.title("Collatz Encryptor Pro")
+root.title("Collatz Encryptor Free")
 root.geometry("450x250")
 
 root.configure(bg="#2e2e2e")
@@ -115,14 +115,14 @@ button_frame.pack(pady=20)
 
 tk.Button(
     button_frame, 
-    text="📄 Datei verschlüsseln", 
+    text="📄 Encrypt File", 
     command=encrypt_file,
     **button_style
 ).pack(side=tk.LEFT, padx=10)
 
 tk.Button(
     button_frame, 
-    text="🔓 Datei entschlüsseln", 
+    text="🔓 Decrypt File", 
     command=decrypt_file,
     **button_style
 ).pack(side=tk.LEFT, padx=10)
