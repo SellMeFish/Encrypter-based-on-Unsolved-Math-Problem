@@ -6,7 +6,7 @@
 ![Banner](https://i.imgur.com/Wfde8F7.png)
 
 > ⚠️ **Private Version Available!** A **highly secure commercial edition** with military-grade encryption is offered for purchase.  
-> **Contact Discord:** `Cyberseall`
+> **Contact Discord:** `cyberseall`
 
 ---
 
@@ -103,7 +103,7 @@ python encryptor.py
 
 ## 📬 Contact
 For commercial licensing of the Private Version:
-**Discord: Cyberseall**
+**Discord: cyberseall**
 
 ---
 
