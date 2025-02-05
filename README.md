@@ -7,10 +7,20 @@ This repository contains the **first public version** of the Collatz Encryption 
 ## 📸 Screenshots
 
 ### Public Version:
-![Public Version Screenshot](path/to/public_version_screenshot.png)
+![Compiler Preview Free Version](https://i.imgur.com/wHnMZtP.png)
+
+![Encryptor Preview Free Version](https://i.imgur.com/an2DGuC.png)
 
 ### Private Version (Highly Secure, Available for Purchase):
-![Private Version Screenshot](path/to/private_version_screenshot.png)
+![Encryptor Preview Private Version](https://i.imgur.com/lBxUEbn.png)
+
+![Compiler Preview Private Version](https://i.imgur.com/Wfde8F7.png)
+
+![Settings Preview Private Version](https://i.imgur.com/GjglWmf.png)
+
+![Settings2 Preview Private Version](https://i.imgur.com/gBi1QgD.png)
+
+![Misc Options Preview Private Version](https://i.imgur.com/b1Tb0wp.png)
 
 ---
 
