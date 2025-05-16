@@ -39,7 +39,7 @@
 
 ---
 
-## 🌟 Highlights
+## Highlights
 
 ### Free Version
 - Collatz-based encryption/decryption
@@ -57,18 +57,18 @@
 
 ---
 
-## 📊 Entropy Analysis
+## Entropy Analysis
 
 | Version        | Entropy Score | Security Level          |
 |----------------|---------------|-------------------------|
 | **Free**       | 7.9943        | Strong Encryption       |
 | **Private**    | 7.9953        | Near-Perfect Randomness |
 
-> 🔍 **Technical Insight**: The Private Version achieves entropy **0.1% closer to perfect randomness** than Free, making statistical attacks virtually impossible.
+>  **Technical Insight**: The Private Version achieves entropy **0.1% closer to perfect randomness** than Free, making statistical attacks virtually impossible.
 
 ---
 
-## 🖼️ Screenshots
+##  Screenshots
 
 | Free Version                    | Private Version                     |
 |---------------------------------|-------------------------------------|
@@ -77,7 +77,7 @@
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 ```python
 # Simplified Collatz Encryption Logic
@@ -94,7 +94,7 @@ def collatz_encrypt(data: str, key: int) -> bytes:
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 # Clone Repository
@@ -110,17 +110,17 @@ python encryptor.py
 
 ---
 
-## 📬 Contact
+##  Contact
 For commercial licensing of the Private Version:
 **Discord: cyberseall**
 
 ---
 
-## 🔐 Why Choose Private?
+## Why Choose Private?
 - **Prevents quantum attacks using Shor’s Algorithm**
 - **1000x stronger key evolution system**
 - **Certified for enterprise security standards**
 
 ---
 
-📅 **© 2025 Collatz Encryption Project.** Free version for non-commercial use only.
+ **© 2025 Collatz Encryption Project.** Free version for non-commercial use only.
