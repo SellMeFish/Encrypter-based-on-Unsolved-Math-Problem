@@ -19,7 +19,7 @@
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 ### Free vs Private Version Comparison
 
